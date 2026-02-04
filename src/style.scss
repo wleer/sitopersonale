@@ -1,8 +1,11 @@
 // Configuration
 @import "bootstrap/scss/functions";
 
-$primary: #9862b2;
-$secondary: #cd9db8;
+$text: #07050f;
+$background: #f2f0fb;
+$primary: #664ccc;
+$secondary: #9c88e8;
+$accent: #795de6;
 $font-family-base: "Merriweather-Sans";
 $headings-font-family: "Merriweather";
 $headings-font-weight: 700;
@@ -70,7 +73,7 @@ $theme-colors: (
 // @import "bootstrap/scss/modal";
 // @import "bootstrap/scss/tooltip";
 // @import "bootstrap/scss/popover";
-// @import "bootstrap/scss/carousel";
+ @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 // @import "bootstrap/scss/offcanvas";
 // @import "bootstrap/scss/placeholders";
