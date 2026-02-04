@@ -1,5 +1,7 @@
 // Configuration
 @import "bootstrap/scss/functions";
+// @import "fontawesome-free/css/brands";
+@import '@fortawesome/fontawesome-free/css/all.css';
 
 $text: #07050f;
 $background: #f2f0fb;
@@ -38,6 +40,7 @@ $theme-colors: (
   //   "danger": $danger,
   "light": $light,
   "dark": $dark,
+  "accent" : $accent,
 );
 
 @import "bootstrap/scss/variables-dark";
