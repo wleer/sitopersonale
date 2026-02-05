@@ -1,13 +1,13 @@
 // Configuration
 @import "bootstrap/scss/functions";
 // @import "fontawesome-free/css/brands";
-@import '@fortawesome/fontawesome-free/css/all.css';
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 $text: #07050f;
 $background: #f2f0fb;
-$primary: #664ccc;
-$secondary: #9c88e8;
-$accent: #795de6;
+$primary: #9988db;
+$secondary: #9281cf;
+$accent: #b0a7d6;
 $font-family-base: "Merriweather-Sans";
 $headings-font-family: "Merriweather";
 $headings-font-weight: 700;
@@ -40,7 +40,7 @@ $theme-colors: (
   //   "danger": $danger,
   "light": $light,
   "dark": $dark,
-  "accent" : $accent,
+  "accent": $accent,
 );
 
 @import "bootstrap/scss/variables-dark";
@@ -52,7 +52,7 @@ $theme-colors: (
 @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
-// @import "bootstrap/scss/images";
+@import "bootstrap/scss/images";
 @import "bootstrap/scss/containers";
 @import "bootstrap/scss/grid";
 // @import "bootstrap/scss/tables";
@@ -76,7 +76,7 @@ $theme-colors: (
 // @import "bootstrap/scss/modal";
 // @import "bootstrap/scss/tooltip";
 // @import "bootstrap/scss/popover";
- @import "bootstrap/scss/carousel";
+@import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 // @import "bootstrap/scss/offcanvas";
 // @import "bootstrap/scss/placeholders";
