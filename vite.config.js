@@ -1,14 +1,10 @@
+import { defineConfig } from "vite";
 import { resolve } from "path";
-export default {
+export default defineConfig({
   base:"./",
   root: resolve(__dirname, "./"),
-  publicDir: "./public",
-  resolve: {
-    alias: {
-      "~bootstrap": resolve(__dirname, "node_modules/bootstrap"),
-    },
-  },
   build: {
-    outDir: "dist",
-  },
-};
+    emptyOutDir: true,
+    outDir: "dist"
+  }
+});
